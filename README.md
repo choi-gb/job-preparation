@@ -11,43 +11,66 @@
 
 ## 코드 연습
 
-1. 인사 출력
+### 1. 인사 출력
 ```python
 print("Hello, World!")
+```
 
-2. 리스트 컴프리헨션
+### 2. 리스트 컴프리헨션
+```python
 nums = [x*2 for x in range(5)]
 print(nums)
+```
 
-3. 람다 함수
+### 3. 람다 함수
+```python
 add = lambda a, b: a + b
 print(add(3, 5))
+```
 
-4. 딕셔너리 사용
+### 4. 딕셔너리 사용
+```python
 user = {"name": "kim", "age": 24}
 print(user["name"])
+```
 
-5. 조건 한 줄 처리
+### 5. 조건 한 줄 처리
+```python
 num = 7
 print("짝수" if num % 2 == 0 else "홀수")
+```
 
-6. set 중복 제거
+### 6. set 중복 제거
+```python
 data = [1, 2, 2, 3, 3]
 print(set(data))
+```
 
-7. zip 사용
+### 7. zip 사용
+```python
 names = ["a", "b"]
 scores = [90, 80]
 print(list(zip(names, scores)))
+```
 
-8. map 함수
+### 8. map 함수
+```python
 nums = [1, 2, 3]
 print(list(map(lambda x: x*2, nums)))
+```
 
-9. 문자열 뒤집기
+### 9. 문자열 뒤집기
+```python
 s = "python"
 print(s[::-1])
+```
 
-10. 파일 쓰기
+### 10. 파일 쓰기
+```python
 with open("test.txt", "w") as f:
     f.write("hello")
+```
+
+---
+
+앞으로 꾸준히 내용을 추가하며 관리할 예정입니다.
