@@ -11,7 +11,6 @@
 
 ## 코드 연습
 
-# 코드 연습
 1. 인사 출력
 ```python
 print("Hello, World!")
